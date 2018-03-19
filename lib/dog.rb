@@ -29,4 +29,8 @@ class Dog
   def self.new_from_db(record)
     self.new(id: record[0], name: record[1], breed: record[2])
   end
+  
+  def self.find_by_name(name)
+    
+  end
 end
