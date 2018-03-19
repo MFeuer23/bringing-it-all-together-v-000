@@ -46,6 +46,10 @@ class Dog
   def save
     if self.id
       self.update
-    
+    else
+      sql = <<-SQL
+        INSERT INTO dogs
+        VALUES
+      SQL
   end
 end
