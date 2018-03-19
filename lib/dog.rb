@@ -28,4 +28,5 @@ class Dog
   
   def self.new_from_db(record)
     self.new(record[0], record[1], record[2])
+  end
 end
