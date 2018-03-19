@@ -38,6 +38,6 @@ class Dog
   end
   
   def update
-    
+    sql = "UPDATE "
   end
 end
